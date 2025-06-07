@@ -36,6 +36,11 @@
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <19 20>;
         };
+
+        Tab2 {
+            bindings = <&kp TAB>;
+            key-positions = <10 11>;
+        };
     };
 
     macros {
@@ -65,7 +70,7 @@
             bindings = <
 &kp Q             &kp W         &kp E                             &kp R         &kp T                                                            &kp Y        &kp U  &kp I      &kp O    &lt 5 P
 &kp A             &kp S         &kp D                             &kp F         &kp G        &kp LS(LG(S))                      &kp MINUS        &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
-&mt LEFT_SHIFT Z  &kp X         &kp C                             &kp V         &kp B        &kp BACKSLASH                      &kp EXCLAMATION  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&mt LEFT_SHIFT Z  &kp X         &kp C                             &kp V         &kp B        &kp ESCAPE                         &kp EXCLAMATION  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL         &kp LEFT_WIN  &lt_to_layer_0 6 INTERNATIONAL_4  &kp LEFT_ALT  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE    &lt 1 ENTER                             &kp DEL
             >;
 
@@ -85,7 +90,7 @@
             bindings = <
 &kp ESCAPE                  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans                                                  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK  &kp MINUS      &kp EQUAL
 &trans                      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp TILDE    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp HASH      &kp DOLLAR     &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans        &trans                       &kp AT_SIGN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CARET     &kp AMPERSAND  &trans
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans        &kp BACKSLASH                &kp AT_SIGN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CARET     &kp AMPERSAND  &trans
 &kp LEFT_SHIFT              &trans           &trans           &trans           &trans        &trans                       &trans       &trans                                                                    &trans
             >;
         };
